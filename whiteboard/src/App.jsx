@@ -1,11 +1,12 @@
 import { Excalidraw } from "@excalidraw/excalidraw"
+import './index.css'
 
 function App() {
 
   return (
     <>
-      <h1 style={{ textAlign: "center", fontFamily: 'Inter' }}>Whiteboard App</h1>
-      <div style={{ height: "90vh" }}>
+      <h1 className="appname">Whiteboard App</h1>
+      <div style={{ height: "85vh" }}>
         <Excalidraw />
       </div>
     </>
